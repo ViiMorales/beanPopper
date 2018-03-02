@@ -1,0 +1,91 @@
+body{
+  background-color: #111111;
+  font-family: sans-serif;
+}
+.owl-carousel{
+  width: 800px;
+  position: relative;
+  margin: 50vh auto 0;
+  top: -60px;
+  text-align: center;
+
+  .item{
+    display: inline-block;
+
+    a{
+      text-decoration: none;
+      color: white;
+      i{
+        display: block;
+        font-size: 56px;
+        margin: 25px 0;
+
+      }
+      span{
+
+      }
+    }
+    &:before{
+      background-color: 0;
+    }
+  }
+}
+
+.testModal{
+  position: absolute;
+  color: indigo;
+  top: 20px;
+  right: 20px;
+  z-index: 99999999;
+  width: 50px;
+  height: 50px;
+  background-color: lavender;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 50px;
+}
+
+.testModal2{
+  position: absolute;
+  color: aliceblue;
+  top: 20px;
+  left: 20px;
+  z-index: 99999999;
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 50px;
+}
+
+.popUp{
+  .popUpContent{
+
+    h1{
+      font-size: 32px;
+      color: rgba(0,0,0,0.2);
+    }
+    p{
+      font-size: 14px;
+      color: #666666
+    }
+    span.close{
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 50%;
+      display: block;
+      position: absolute;
+      line-height: 50px;
+      text-align: center;
+      font-size: 32px;
+      color: white;
+      top: -25px;
+      right: -25px;
+    }
+  }
+}
+
+
+
